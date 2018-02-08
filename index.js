@@ -14,8 +14,8 @@ class Customer {
   }
   
   deliveries() {
-    return store.deliveries.map(delivery => {
-      
+    return store.deliveries.filter(delivery => {
+      return delivery.customerId === this.customerId
     })
   }
   
