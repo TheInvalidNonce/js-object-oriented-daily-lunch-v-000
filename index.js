@@ -36,4 +36,10 @@ class Delivery {
     this.customerId = customer.id
     store.deliveries.push(this)
   }
+  
+  meal() {
+    return store.meals.find(meal => {
+      return meal.id === this.mealId
+    })
+  }
 }
