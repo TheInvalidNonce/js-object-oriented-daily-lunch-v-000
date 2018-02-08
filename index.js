@@ -19,6 +19,10 @@ class Customer {
     })
   }
   
+  meals() {
+    return this.deliveries()
+  }
+  
   totalSpent() {
     return store.meals.reduce((total, meal) => {
       return total += meal.price
