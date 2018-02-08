@@ -97,6 +97,6 @@ class Employer {
   }
   
   deliveries() {
-    let allDeliveries = store.
+    return store.deliveries.filter()
   }
 }
