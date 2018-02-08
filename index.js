@@ -103,7 +103,9 @@ class Employer {
   }
   
   meals() {
-    let allMeals = this.deliveries().;
+    let allMeals = this.deliveries().map(delivery =>{
+      
+    });
     
     return 
   }
