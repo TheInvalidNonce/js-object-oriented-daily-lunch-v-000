@@ -98,7 +98,7 @@ class Employer {
   
   deliveries() {
     return store.deliveries.filter(delivery => {
-      return delivery.customer().id === this.id
+      return delivery.customer.employer.id === this.id
     })
   }
 }
