@@ -42,4 +42,8 @@ class Delivery {
       return meal.id === this.mealId
     })
   }
+  
+  customer() {
+    
+  }
 }
