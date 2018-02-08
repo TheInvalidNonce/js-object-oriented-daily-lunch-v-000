@@ -12,6 +12,10 @@ class Customer {
     this.employer = employer
     store.customers.push(this)
   }
+  
+  totalSpent() {
+    
+  }
 }
 
 class Meal {
