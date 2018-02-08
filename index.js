@@ -44,8 +44,8 @@ class Delivery {
   }
   
   customer() {
-    return store.deliveries.find(delivery => {
-      return delivery.id === this.deliveryId
+    return store.customers.find(customer => {
+      return customer.id === this.customerId
     })
   }
 }
