@@ -13,7 +13,11 @@ class Customer {
     store.customers.push(this)
   }
   
-  
+  meals() {
+    return store.meals.filter(meal => {
+      return 
+    })
+  }
   
   totalSpent() {
     return store.meals.reduce((total, meal) => {
