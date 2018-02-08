@@ -21,7 +21,7 @@ class Customer {
   
   meals() {
     return this.deliveries().map(delivery =>{
-      delivery.
+      return delivery.meal()
     })
   }
   
