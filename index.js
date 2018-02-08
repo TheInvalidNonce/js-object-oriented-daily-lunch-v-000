@@ -101,4 +101,10 @@ class Employer {
       return delivery.customer().employer.id === this.id
     })
   }
+  
+  meals() {
+    let allDeliveries = this.deliveries();
+    
+    return 
+  }
 }
