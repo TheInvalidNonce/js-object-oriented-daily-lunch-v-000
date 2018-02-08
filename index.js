@@ -95,4 +95,8 @@ class Employer {
       return customer.employer.id === this.id
     })
   }
+  
+  deliveries() {
+    let allDeliveries = store.
+  }
 }
