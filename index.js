@@ -89,4 +89,10 @@ class Employer {
     this.name = name
     store.employers.push(this)
   }
+  
+  employees() {
+    return store.customers.filter(customer => {
+      customer.
+    })
+  }
 }
