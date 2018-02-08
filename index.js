@@ -110,4 +110,8 @@ class Employer {
     let uniqueMeals = [...new Set(allMeals)]
     return uniqueMeals;
   }
+  
+  mealTotals() {
+    
+  }
 }
