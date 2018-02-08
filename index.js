@@ -108,6 +108,6 @@ class Employer {
     });
     
     let uniqueMeals = [...new Set(allMeals)]
-    return allMeals;
+    return uniqueMeals;
   }
 }
