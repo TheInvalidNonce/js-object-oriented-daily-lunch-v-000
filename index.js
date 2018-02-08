@@ -49,3 +49,10 @@ class Delivery {
     })
   }
 }
+
+class Employer {
+  constructor(name) {
+    this.id = ++employerId
+    this.name = name
+  }
+}
