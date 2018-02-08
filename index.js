@@ -20,7 +20,9 @@ class Customer {
   }
   
   meals() {
-    return this.deliveries()
+    return this.deliveries().map(delivery =>{
+      delivery.
+    })
   }
   
   totalSpent() {
