@@ -103,7 +103,7 @@ class Employer {
   }
   
   meals() {
-    let allDeliveries = this.deliveries();
+    let allMeals = this.deliveries().;
     
     return 
   }
