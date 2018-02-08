@@ -14,7 +14,8 @@ class Customer {
   }
   
   totalSpent() {
-    return store.meals.reduce((total, meal) => {
+    return store.meals.reduce((0, meal) => {
+      let total = 0;
       return total += meal.price
     }, 0)
   }
