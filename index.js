@@ -52,6 +52,12 @@ class Meal {
     })
   }
   
+  customers() {
+    return store.customers.filter(customer => {
+      return customer
+    })
+  }
+  
 }
 
 class Delivery {
