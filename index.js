@@ -13,9 +13,9 @@ class Customer {
     store.customers.push(this)
   }
   
-  meals() {
-    return store.meals.filter(meal => {
-      return 
+  deliveries() {
+    return store.deliveries.map(delivery => {
+      
     })
   }
   
