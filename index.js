@@ -107,6 +107,6 @@ class Employer {
       return delivery.meal()
     });
     
-    return 
+    let uniqueMeals = new [...Set(allMeals)]
   }
 }
